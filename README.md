@@ -1,6 +1,6 @@
 # Anomaly-Detection-Using-LSTM-autoencoder
 
-Authors: [Sayan Hazra]() & [Sankalpa Chowdhury]()
+Authors: [Sayan Hazra](https://github.com/sayan0506) & [Sankalpa Chowdhury](https://github.com/sankalpachowdhury)
 LSTM autoencoder based anomaly detection using Keras and Tensorflow backend
 
 * Here in this project we have done a comparative study between **Simple LSTM Network** and **LSTM based Autoencoder Network**. We have tried to detect Anomalies in closing price in **Daily closing prices for S&P 500 index from 1986---&gt;2018**
