@@ -13,7 +13,7 @@ LSTM autoencoder based anomaly detection using Keras and Tensorflow backend
 
 * The networks are then used to predict or forecast using original data rather than the normalized one, if the MAE becomes greater than the Threshold, we can detect anomaly correspond to that Date, or the closing proce corresponding to that date holds the Anomaly.
 
-* Details implementation can be found from [code](https://github.com/sayan0506/Anomaly-Detection-Using-LSTM-autoencoder/blob/main/Anomaly_Detection_Time_Series_Keras.ipynb)
+* Details implementation can be found from thr google collab [notebook](https://github.com/sayan0506/Anomaly-Detection-Using-LSTM-autoencoder/blob/main/Anomaly_Detection_Time_Series_Keras.ipynb).
 
 # Reference:
 
