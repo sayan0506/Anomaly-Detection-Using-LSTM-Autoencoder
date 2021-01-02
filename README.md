@@ -7,6 +7,14 @@ LSTM autoencoder based anomaly detection using Keras and Tensorflow backend
 
 * The working and intuition behind the LSTM and LSTM Autoencoder can be found from the reference link and Deep Learning Specialization(Sequence Models) course.
 
+* The intuition here is to PASS the time-series window, which predicts the forecasted output for Simple LSTM and Reconstructs the input sequence for LSTM Autoencoder by using Encoder-Decoder network. The main difference is the Latent Space layer or bottleneck layer that exists between encoder and decoder, which helps to reduce dimensionality and better reconstruction approach by low dimensional manifold learning approach.
+
+* The networks are trained similarly, and from the Mean Absolute Error distribution of the predictions on the training set, we set 0.65 as the Threshold error.
+
+* The networks are then used to predict or forecast using original data rather than the normalized one, if the MAE becomes greater than the Threshold, we can detect anomaly correspond to that Date, or the closing proce corresponding to that date holds the Anomaly.
+
+* Details implementation can be found from [code](https://github.com/sayan0506/Anomaly-Detection-Using-LSTM-autoencoder/blob/main/Anomaly_Detection_Time_Series_Keras.ipynb)
+
 # Reference:
 
 * [LSTM Autoencoder for Anomaly Detection](https://towardsdatascience.com/lstm-autoencoder-for-anomaly-detection-e1f4f2ee7ccf)
